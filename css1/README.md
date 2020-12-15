@@ -1,4 +1,4 @@
-# CSS MODULES:
+# React Completo Origamid - Módulo CSS - <i> CSS MODULES: </i>
 
 ## Definição:
 <p>Os modules garantem que as classes utilizada sejam sempre únicas, evitando o conflito. O modo já vem configurando com o create-react-app, basta definirmos o nome do arquivo css com a palavra .module. Ex: Produto.module.css. Devemos definir um nome para a importação, a mesma será transformada em um objeto que possui nomes únicos para as classes.</p>
@@ -7,3 +7,11 @@
 
 <p>Funcionalidades Extras
 O CSS Modules disponibiliza algumas funcionalidades extras para o CSS, como a definição de variáveis, composição de elementos e definição de classes no contexto global. Não aconselho o uso, pois a sintaxe não é bem suportada pela IDE (VS Code) e pelo eslint.</p>
+
+
+## Ferramentas e Aprendizados:
+<li>CSS Modules </li>
+
+## Imagem do app:
+
+<img src="./img.png"/>
