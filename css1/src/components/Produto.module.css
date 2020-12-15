@@ -1,0 +1,45 @@
+/* definição de variáveis:*/
+@value corPrincipal: red;
+
+
+/*outra forma de fazer isso sem usar CSS MODULES:
+no elemento pai colocar: */
+.containerLoja {
+
+  --cor: white;
+}
+/* e no elemento filho colocar color: var(--cor) */
+
+.titulo {
+ color: #4433cc
+
+}
+
+.preco {
+font-weight: bold;
+color: corPrincipal;
+
+}
+
+.comprar {
+background-color: orchid;
+border: none;
+padding: 20px;
+cursor: pointer;
+border-radius: 7px;
+color: var(--cor)
+
+}
+
+/* Outro extra é o composes, que serve para copiar tudo de um elemento em outro */
+.desconto {
+  composes: preco;
+  text-decoration:line-through;
+}
+
+/* Outro extra: crie um css global utilizando o IMPORT puro para quando precisar de estilos globais */
+
+:global .container {
+background-color: palegreen;
+  max-width: 900px;
+}
