@@ -14,4 +14,4 @@ O CSS Modules disponibiliza algumas funcionalidades extras para o CSS, como a de
 
 ## Imagem do app:
 
-<img src="./img.png"/>
+<img src="./img.PNG"/>
