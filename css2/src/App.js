@@ -1,5 +1,6 @@
 import './App.css';
 import Produto from './components/Produto';
+import styled from 'styled-components';
 
 function App() {
   return (
