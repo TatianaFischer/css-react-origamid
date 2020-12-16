@@ -20,4 +20,4 @@ vscode-styled-components
 
 ## Imagem do app:
 
-<img src="./img.PNG"/>
+<img src="./cart.gif"/>
