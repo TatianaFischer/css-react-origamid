@@ -67,4 +67,4 @@ import Card from 'react-bootstrap/Card';
 
 ## Imagem do app:
 
-<img src="./"/>
+<img src="./img.PNG"/>
