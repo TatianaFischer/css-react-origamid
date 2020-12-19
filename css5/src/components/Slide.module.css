@@ -1,7 +1,7 @@
 .container {
   background-color: turquoise;
   /* para esconder tudo que pular de uma tela, se não colocar essa opção, vai aparecer tudo com o scrol pra mostrar o que não aparece em uma tela só */
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .content {
@@ -15,4 +15,17 @@
   width: 80%;
   /* para que os itens não sejam compactados somente em uma local, como faz o flex, ele segue a medida do width */
   flex-shrink: 0;
-}
+  margin: 0 10%;
+  padding: 10rem 0;
+  background: #eee;
+  border-radius: 4px;
+  text-align: center;
+  }
+
+  .nav {
+display: flex;
+justify-content: space-between;
+margin: 1rem auto;
+width: 80%;
+
+  }
