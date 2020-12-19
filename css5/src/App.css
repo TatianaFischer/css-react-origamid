@@ -1,0 +1,35 @@
+.animeLeft {
+
+  /* estado inicial: */
+  opacity: 0; 
+  /* começa 20 px ao la esquerdo o eixo x: */
+  transform: translateX(-20px); 
+   /* nome da animação, quanto tempo, ao final o elemento fique com o estado final: */
+  animation: animeLeft .3s forwards;
+}
+
+/* criação da animação: */
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.animeZoom {
+
+  /* estado inicial: */
+  opacity: 0; 
+  /* começa 20 px ao la esquerdo o eixo x: */
+  transform: scale(0.8); 
+   /* nome da animação, quanto tempo, ao final o elemento fique com o estado final: */
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeZoom {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
