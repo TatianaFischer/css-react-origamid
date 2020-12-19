@@ -2,11 +2,11 @@
 
 ## Definição:
 
-
+<p>Anime a entrada de elementos utilizando a propriedade animation.</p>
 
 ## Ferramentas e Aprendizados:
-<li> </li>
+<li> Propriedade ANIMATION</li>
 
 ## Imagem do app:
 
-<img src="./img.PNG"/>
+<img src="./animation1.gif"/>
