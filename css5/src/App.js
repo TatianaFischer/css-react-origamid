@@ -1,27 +1,25 @@
 import React from 'react';
 import './App.css';
-import Produto from './components/Produto';
-import Imagem from './components/Imagem';
+import Slide from './components/Slide';
+
 function App() {
-  const [ativar, setAtivar] = React.useState(false);
-  const [verImg, setVerImg] = React.useState(false);
+  const slides = [
+    {
+      id: 'slide 1',
+      text: 'slide 1',
+    },
+    {
+      id: 'slide 2',
+      text: 'slide 2',
+    },
+    {
+      id: 'slide 3',
+      text: 'slide 3',
+    },
+  ];
   return (
     <>
-      <h1>Loja</h1>
-      <div>
-        <button onClick={() => setAtivar(!ativar)}>Ver Promoções</button>
-        {ativar && <Produto />}
-      </div>
-      {ativar ? (
-        <div>
-          <button onClick={() => setVerImg(!verImg)}>
-            Ver Foto do Produto{' '}
-          </button>
-          {verImg && <Imagem />}
-        </div>
-      ) : (
-        false
-      )}
+      <Slide slides={slides} />
     </>
   );
 }

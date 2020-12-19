@@ -2,7 +2,7 @@
 
 ## Definição:
 
-<p>Mini projeto utilizando as animations do CSS</p>
+<p>Mini projeto utilizando transitions: Anime a entrada de elementos utilizando a propriedade animation. </p>
 
 ## Ferramentas e Aprendizados:
 <li> Propriedade ANIMATION</li>
