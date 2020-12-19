@@ -2,9 +2,9 @@
 
 <p>Podemos adicionar qualquer library/framework de css ao React. Com o @next vamos instalar a versão 5 do bootstrap. Popper é necessário para algumas funções do bootstrap.</p>
 
-## 1.  Bootstrap:
+# 1.  Bootstrap:
 
-# Instalação:
+## Instalação:
 
 ```
 npm install bootstrap@next
@@ -28,10 +28,10 @@ ReactDOM.render(
 );
 ```
 
-## 2. React  Bootstrap:
+# 2. React  Bootstrap:
 <p>Existem frameworks de CSS que te fornecem componentes prontos para serem utilizados no local de classes. O react-bootstrap utiliza em sua base o bootstrap, mas fornece componentes React.</p>
 
-# Instalação:
+## Instalação:
 
 ```
 npm install react-bootstrap bootstrap
