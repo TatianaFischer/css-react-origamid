@@ -5,9 +5,9 @@
 }
 
 .content {
-  background-color: yellowgreen;
-  
+  background-color: yellowgreen;  
   display: flex;
+  transition: transform .3s ease;
 }
 
 .item {
