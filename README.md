@@ -1,10 +1,10 @@
 # css-react
 CSS chalanges of the Complete React Course - Origamid
 
-## CSS MODULES
+#### CSS MODULES
 
-## styled components
+#### styled components
 
-## ANIMATION
+#### ANIMATION
 
-## small slide show project with animation
+#### small slide show project with animation
