@@ -9,4 +9,4 @@
 
 ## Imagem do app:
 
-<img src="./animation2.gif"/>
+<img src="./gif1.gif"/>
