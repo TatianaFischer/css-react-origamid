@@ -25,7 +25,7 @@ const Slide = ({ slides }) => {
       <img
         src={foto}
         alt="cachorro"
-        style={{ width: '100px', height: 'auto' }}
+        style={{ width: '100px', height: '100px', borderRadius: '50%' }}
       />{' '}
       <div
         ref={contentRef}

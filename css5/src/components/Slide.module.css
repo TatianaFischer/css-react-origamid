@@ -1,11 +1,12 @@
-.container {
-  background-color: turquoise;
+.container { background-image: url("../img/foto.jpg");
+
+  
   /* para esconder tudo que pular de uma tela, se não colocar essa opção, vai aparecer tudo com o scrol pra mostrar o que não aparece em uma tela só */
   overflow: hidden;
 }
 
 .content {
-  background-color: yellowgreen;  
+opacity: 0.8;
   display: flex;
   transition: transform .3s ease;
 }
@@ -29,3 +30,7 @@ margin: 1rem auto;
 width: 80%;
 
   }
+
+
+ 
+
