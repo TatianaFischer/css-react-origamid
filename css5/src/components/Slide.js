@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Slide.module.css';
+import foto from '../img/foto.jpg';
 
 const Slide = ({ slides }) => {
   const [active, setActive] = React.useState(0);
@@ -21,6 +22,11 @@ const Slide = ({ slides }) => {
 
   return (
     <section className={styles.container}>
+      <img
+        src={foto}
+        alt="cachorro"
+        style={{ width: '100px', height: 'auto' }}
+      />{' '}
       <div
         ref={contentRef}
         className={styles.content}
