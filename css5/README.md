@@ -3,6 +3,7 @@
 ## Definição:
 
 <p>Mini projeto utilizando transitions: Anime a entrada de elementos utilizando a propriedade animation. </p>
+<p>3 formas diferente de importar imagem: src, backgroundImage e usando ReactComponent (SVG)</p>
 
 ## Ferramentas e Aprendizados:
 <li> Propriedade ANIMATION</li>
