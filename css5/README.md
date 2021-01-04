@@ -28,4 +28,4 @@ const App = () => {
 ```
 ## Imagem do app:
 
-<img src="./gif1.gif"/>
+<img src="./gif.gif"/>
