@@ -1,13 +1,14 @@
-# React Completo Origamid - Módulo CSS - <i> ANIMAÇÕES 2: </i>
+# React Completo Origamid - Módulo CSS - <i> IMPORTAÇÕES DE IMAGENS: </i>
 
 ## Definição:
 
-<p>Mini projeto utilizando transitions: Anime a entrada de elementos utilizando a propriedade animation. </p>
-<p>3 formas diferente de importar imagem: src, backgroundImage e usando ReactComponent (SVG)</p>
+
+<p>várias formas diferente de importar imagem: src, backgroundImage e usando ReactComponent (SVG)</p>
 
 ## Ferramentas e Aprendizados:
 <li> Propriedade ANIMATION</li>
-<li> Nova forma de importar imagem</li>
+<li> Novas formas de importar imagem</li>
+<li> Como passar propriedade para um componente img.svg</li>
 
 
 ## Importação de imagem:
